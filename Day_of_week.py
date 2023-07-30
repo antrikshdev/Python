@@ -23,6 +23,6 @@ def find_day(date):
 # To get the input from the user
 # User may type 1/2/1999 or 1-2-1999
 # To overcome those we have to process user input and make it standard to accept as defined by  calender and time module
-user_input = str(input("Enter date     "))
+user_input = str("30/07/2023")
 date = process_date(user_input)
 print("Day on " + user_input + "  is " + find_day(date))
